@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E16B3CA1DD3C04300C2F7A0 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3C91DD3C04300C2F7A0 /* Raleway-Bold.ttf */; };
+		5E16B3CC1DD3C05700C2F7A0 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3CB1DD3C05700C2F7A0 /* Raleway-ExtraBold.ttf */; };
+		5E16B3CE1DD3C06900C2F7A0 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3CD1DD3C06900C2F7A0 /* Raleway-ExtraLight.ttf */; };
+		5E16B3D01DD3C07700C2F7A0 /* Raleway-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3CF1DD3C07700C2F7A0 /* Raleway-Heavy.ttf */; };
+		5E16B3D21DD3C08C00C2F7A0 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3D11DD3C08C00C2F7A0 /* Raleway-Light.ttf */; };
+		5E16B3D41DD3C09A00C2F7A0 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3D31DD3C09A00C2F7A0 /* Raleway-Medium.ttf */; };
+		5E16B3D61DD3C0A800C2F7A0 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3D51DD3C0A800C2F7A0 /* Raleway-Regular.ttf */; };
+		5E16B3D81DD3C0B500C2F7A0 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3D71DD3C0B500C2F7A0 /* Raleway-SemiBold.ttf */; };
+		5E16B3DA1DD3C0C400C2F7A0 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3D91DD3C0C400C2F7A0 /* Raleway-Thin.ttf */; };
+		5E16B3DE1DD3CA6300C2F7A0 /* CustomHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E16B3DD1DD3CA6300C2F7A0 /* CustomHeaderCell.swift */; };
+		5E16B3E81DD5379500C2F7A0 /* Donate.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3DF1DD5379500C2F7A0 /* Donate.png */; };
+		5E16B3E91DD5379500C2F7A0 /* Elections.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3E01DD5379500C2F7A0 /* Elections.png */; };
+		5E16B3EA1DD5379500C2F7A0 /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3E11DD5379500C2F7A0 /* Facebook.png */; };
+		5E16B3EB1DD5379500C2F7A0 /* Feedback.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3E21DD5379500C2F7A0 /* Feedback.png */; };
+		5E16B3EC1DD5379500C2F7A0 /* IdVerified.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3E31DD5379500C2F7A0 /* IdVerified.png */; };
+		5E16B3ED1DD5379500C2F7A0 /* RouteSign.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3E41DD5379500C2F7A0 /* RouteSign.png */; };
+		5E16B3EE1DD5379500C2F7A0 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3E51DD5379500C2F7A0 /* Search.png */; };
+		5E16B3EF1DD5379500C2F7A0 /* ShakePhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3E61DD5379500C2F7A0 /* ShakePhone.png */; };
+		5E16B3F01DD5379500C2F7A0 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3E71DD5379500C2F7A0 /* Twitter.png */; };
+		5E16B3F21DD538B500C2F7A0 /* Volunteering-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3F11DD538B500C2F7A0 /* Volunteering-48.png */; };
+		5E16B3F41DD5390E00C2F7A0 /* SMS-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E16B3F31DD5390E00C2F7A0 /* SMS-48.png */; };
+		5E34AFDF1DB6E48C0075B042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34AFDE1DB6E48C0075B042 /* AppDelegate.swift */; };
+		5E5817A21DA6BB63003C759F /* HRC_Walkthrough_p1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E58179F1DA6BB63003C759F /* HRC_Walkthrough_p1.png */; };
+		5E5817A31DA6BB64003C759F /* HRC_Walkthrough_p2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5817A01DA6BB63003C759F /* HRC_Walkthrough_p2.png */; };
+		5E5817A41DA6BB64003C759F /* HRC_Walkthrough_p3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5817A11DA6BB63003C759F /* HRC_Walkthrough_p3.png */; };
+		5E5E656D1DB55CC3007E6C86 /* win.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E656C1DB55CC3007E6C86 /* win.jpg */; };
+		5E5E656F1DB55D06007E6C86 /* early.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E656E1DB55D06007E6C86 /* early.jpg */; };
+		5E7741581DA8202B00713D0A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7741571DA8202A00713D0A /* WebViewController.swift */; };
+		5EB0D84F1DB84C9200BCCDD3 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0D84E1DB84C9200BCCDD3 /* Raleway-Black.ttf */; };
+		5EB0D8511DB9B2CF00BCCDD3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0D8501DB9B2CF00BCCDD3 /* Launch Screen.storyboard */; };
+		5EB0D8531DBAA86300BCCDD3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0D8521DBAA86300BCCDD3 /* Default-568h@2x.png */; };
+		5EF177891DA99BE400A88A4B /* VWFicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EF177871DA99BE400A88A4B /* VWFicon.jpg */; };
+		5EF1778A1DA99BE400A88A4B /* vwflaunch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EF177881DA99BE400A88A4B /* vwflaunch.jpg */; };
+		5EFB0E971DA07E9500007C1C /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB0E861DA07E9500007C1C /* facebook@2x.png */; };
+		5EFB0E981DA07E9500007C1C /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB0E871DA07E9500007C1C /* twitter@2x.png */; };
+		5EFB0E991DA07E9500007C1C /* message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB0E881DA07E9500007C1C /* message@2x.png */; };
+		5EFB0E9A1DA07E9500007C1C /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB0E891DA07E9500007C1C /* like@2x.png */; };
+		5EFB0EC71DA18C9F00007C1C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFB0EC41DA18C9F00007C1C /* FBSDKCoreKit.framework */; };
+		5EFB0EC81DA18C9F00007C1C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFB0EC51DA18C9F00007C1C /* FBSDKLoginKit.framework */; };
+		5EFB0EC91DA18C9F00007C1C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFB0EC61DA18C9F00007C1C /* FBSDKShareKit.framework */; };
+		DA0BDB201BCC42EA00318A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0BDB1E1BCC42EA00318A58 /* Main.storyboard */; };
+		DA0BDB221BCC42EA00318A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0BDB211BCC42EA00318A58 /* Assets.xcassets */; };
+		DA646C7F1BCD7615002965D7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA646C7E1BCD7615002965D7 /* Task.swift */; };
+		DA646C811BCD877E002965D7 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA646C801BCD877E002965D7 /* TaskList.swift */; };
+		DA646C831BCD98A6002965D7 /* TaskListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA646C821BCD98A6002965D7 /* TaskListsViewController.swift */; };
+		DA6D6D011BD5766800DFF8DC /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6D6D001BD5766800DFF8DC /* TasksViewController.swift */; };
+		F20568DAD44DDE2E9E7208A9 /* Pods_VoteWithFriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44345F0A19587B4FEE5B35D2 /* Pods_VoteWithFriends.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44345F0A19587B4FEE5B35D2 /* Pods_VoteWithFriends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteWithFriends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E16B3C91DD3C04300C2F7A0 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		5E16B3CB1DD3C05700C2F7A0 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5E16B3CD1DD3C06900C2F7A0 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5E16B3CF1DD3C07700C2F7A0 /* Raleway-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Heavy.ttf"; sourceTree = "<group>"; };
+		5E16B3D11DD3C08C00C2F7A0 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		5E16B3D31DD3C09A00C2F7A0 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		5E16B3D51DD3C0A800C2F7A0 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		5E16B3D71DD3C0B500C2F7A0 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		5E16B3D91DD3C0C400C2F7A0 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		5E16B3DD1DD3CA6300C2F7A0 /* CustomHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderCell.swift; sourceTree = "<group>"; };
+		5E16B3DF1DD5379500C2F7A0 /* Donate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Donate.png; sourceTree = "<group>"; };
+		5E16B3E01DD5379500C2F7A0 /* Elections.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Elections.png; sourceTree = "<group>"; };
+		5E16B3E11DD5379500C2F7A0 /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook.png; sourceTree = "<group>"; };
+		5E16B3E21DD5379500C2F7A0 /* Feedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feedback.png; sourceTree = "<group>"; };
+		5E16B3E31DD5379500C2F7A0 /* IdVerified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IdVerified.png; sourceTree = "<group>"; };
+		5E16B3E41DD5379500C2F7A0 /* RouteSign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RouteSign.png; sourceTree = "<group>"; };
+		5E16B3E51DD5379500C2F7A0 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		5E16B3E61DD5379500C2F7A0 /* ShakePhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShakePhone.png; sourceTree = "<group>"; };
+		5E16B3E71DD5379500C2F7A0 /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		5E16B3F11DD538B500C2F7A0 /* Volunteering-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Volunteering-48.png"; sourceTree = "<group>"; };
+		5E16B3F31DD5390E00C2F7A0 /* SMS-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SMS-48.png"; sourceTree = "<group>"; };
+		5E34AFDE1DB6E48C0075B042 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E5660441DEE356C00D34925 /* VoteWithFriends.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = VoteWithFriends.entitlements; path = VoteWithFriends/VoteWithFriends.entitlements; sourceTree = "<group>"; };
+		5E58179F1DA6BB63003C759F /* HRC_Walkthrough_p1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HRC_Walkthrough_p1.png; sourceTree = "<group>"; };
+		5E5817A01DA6BB63003C759F /* HRC_Walkthrough_p2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HRC_Walkthrough_p2.png; sourceTree = "<group>"; };
+		5E5817A11DA6BB63003C759F /* HRC_Walkthrough_p3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HRC_Walkthrough_p3.png; sourceTree = "<group>"; };
+		5E5E656C1DB55CC3007E6C86 /* win.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = win.jpg; sourceTree = "<group>"; };
+		5E5E656E1DB55D06007E6C86 /* early.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = early.jpg; sourceTree = "<group>"; };
+		5E7741571DA8202A00713D0A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		5EB0D84C1DB8393600BCCDD3 /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
+		5EB0D84E1DB84C9200BCCDD3 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		5EB0D8501DB9B2CF00BCCDD3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5EB0D8521DBAA86300BCCDD3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5ED6AB2E1DA03AF000F24D50 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "Pods/../build/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
+		5ED6AB301DA03AF300F24D50 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "build/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
+		5EF177871DA99BE400A88A4B /* VWFicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VWFicon.jpg; sourceTree = "<group>"; };
+		5EF177881DA99BE400A88A4B /* vwflaunch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vwflaunch.jpg; sourceTree = "<group>"; };
+		5EFB0E861DA07E9500007C1C /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
+		5EFB0E871DA07E9500007C1C /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		5EFB0E881DA07E9500007C1C /* message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@2x.png"; sourceTree = "<group>"; };
+		5EFB0E891DA07E9500007C1C /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
+		5EFB0EC41DA18C9F00007C1C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		5EFB0EC51DA18C9F00007C1C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		5EFB0EC61DA18C9F00007C1C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FBSDKShareKit.framework; sourceTree = "<group>"; };
+		5EFB0ECA1DA190EF00007C1C /* RealmTasks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealmTasks-Bridging-Header.h"; sourceTree = "<group>"; };
+		91A3B550D51977CB8CC2AF25 /* Pods-RealmTasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmTasks.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmTasks/Pods-RealmTasks.release.xcconfig"; sourceTree = "<group>"; };
+		AE3D78BBD2380D3BD2C0B860 /* Pods-VoteWithFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteWithFriends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoteWithFriends/Pods-VoteWithFriends.debug.xcconfig"; sourceTree = "<group>"; };
+		BBBB06F1F8370E2161AF4947 /* Pods-VoteWithFriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteWithFriends.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoteWithFriends/Pods-VoteWithFriends.release.xcconfig"; sourceTree = "<group>"; };
+		DA0BDB171BCC42EA00318A58 /* VoteWithFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoteWithFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0BDB1F1BCC42EA00318A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA0BDB211BCC42EA00318A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA0BDB261BCC42EA00318A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA646C7E1BCD7615002965D7 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DA646C801BCD877E002965D7 /* TaskList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		DA646C821BCD98A6002965D7 /* TaskListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListsViewController.swift; sourceTree = "<group>"; };
+		DA6D6D001BD5766800DFF8DC /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		E7E8F023C561ACF4050C9D86 /* Pods_RealmTasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmTasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E85B0B91FFB8CF3F978D59 /* Pods-RealmTasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmTasks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmTasks/Pods-RealmTasks.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA0BDB141BCC42EA00318A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFB0EC71DA18C9F00007C1C /* FBSDKCoreKit.framework in Frameworks */,
+				5EFB0EC91DA18C9F00007C1C /* FBSDKShareKit.framework in Frameworks */,
+				5EFB0EC81DA18C9F00007C1C /* FBSDKLoginKit.framework in Frameworks */,
+				F20568DAD44DDE2E9E7208A9 /* Pods_VoteWithFriends.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027AC09351E57DE39E9CC57F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ED6AB301DA03AF300F24D50 /* RealmSwift.framework */,
+				5ED6AB2E1DA03AF000F24D50 /* Realm.framework */,
+				E7E8F023C561ACF4050C9D86 /* Pods_RealmTasks.framework */,
+				44345F0A19587B4FEE5B35D2 /* Pods_VoteWithFriends.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EFB0E851DA07E7100007C1C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB0E861DA07E9500007C1C /* facebook@2x.png */,
+				5EFB0E871DA07E9500007C1C /* twitter@2x.png */,
+				5EFB0E881DA07E9500007C1C /* message@2x.png */,
+				5EFB0E891DA07E9500007C1C /* like@2x.png */,
+				5E58179F1DA6BB63003C759F /* HRC_Walkthrough_p1.png */,
+				5E5817A01DA6BB63003C759F /* HRC_Walkthrough_p2.png */,
+				5E5817A11DA6BB63003C759F /* HRC_Walkthrough_p3.png */,
+				5E16B3DF1DD5379500C2F7A0 /* Donate.png */,
+				5E16B3E01DD5379500C2F7A0 /* Elections.png */,
+				5E16B3E11DD5379500C2F7A0 /* Facebook.png */,
+				5E16B3E21DD5379500C2F7A0 /* Feedback.png */,
+				5E16B3E31DD5379500C2F7A0 /* IdVerified.png */,
+				5E16B3F31DD5390E00C2F7A0 /* SMS-48.png */,
+				5E16B3E41DD5379500C2F7A0 /* RouteSign.png */,
+				5E16B3F11DD538B500C2F7A0 /* Volunteering-48.png */,
+				5E16B3E51DD5379500C2F7A0 /* Search.png */,
+				5E16B3E61DD5379500C2F7A0 /* ShakePhone.png */,
+				5E16B3E71DD5379500C2F7A0 /* Twitter.png */,
+				5EF177871DA99BE400A88A4B /* VWFicon.jpg */,
+				5EF177881DA99BE400A88A4B /* vwflaunch.jpg */,
+				5E5E656C1DB55CC3007E6C86 /* win.jpg */,
+				5E5E656E1DB55D06007E6C86 /* early.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		A88594CCDE2CD7D5330CC25D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8E85B0B91FFB8CF3F978D59 /* Pods-RealmTasks.debug.xcconfig */,
+				91A3B550D51977CB8CC2AF25 /* Pods-RealmTasks.release.xcconfig */,
+				AE3D78BBD2380D3BD2C0B860 /* Pods-VoteWithFriends.debug.xcconfig */,
+				BBBB06F1F8370E2161AF4947 /* Pods-VoteWithFriends.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA0BDB0E1BCC42EA00318A58 = {
+			isa = PBXGroup;
+			children = (
+				5E5660441DEE356C00D34925 /* VoteWithFriends.entitlements */,
+				DA0BDB191BCC42EA00318A58 /* RealmTasks */,
+				DA0BDB181BCC42EA00318A58 /* Products */,
+				027AC09351E57DE39E9CC57F /* Frameworks */,
+				A88594CCDE2CD7D5330CC25D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DA0BDB181BCC42EA00318A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA0BDB171BCC42EA00318A58 /* VoteWithFriends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA0BDB191BCC42EA00318A58 /* RealmTasks */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB0EC41DA18C9F00007C1C /* FBSDKCoreKit.framework */,
+				5EFB0EC51DA18C9F00007C1C /* FBSDKLoginKit.framework */,
+				5EFB0EC61DA18C9F00007C1C /* FBSDKShareKit.framework */,
+				5EFB0E851DA07E7100007C1C /* images */,
+				DA646C7B1BCD7587002965D7 /* Model */,
+				DA646C821BCD98A6002965D7 /* TaskListsViewController.swift */,
+				5E7741571DA8202A00713D0A /* WebViewController.swift */,
+				5E34AFDE1DB6E48C0075B042 /* AppDelegate.swift */,
+				DA0BDB1E1BCC42EA00318A58 /* Main.storyboard */,
+				5E16B3DD1DD3CA6300C2F7A0 /* CustomHeaderCell.swift */,
+				5EB0D8501DB9B2CF00BCCDD3 /* Launch Screen.storyboard */,
+				5EB0D8521DBAA86300BCCDD3 /* Default-568h@2x.png */,
+				DA0BDB211BCC42EA00318A58 /* Assets.xcassets */,
+				DA0BDB261BCC42EA00318A58 /* Info.plist */,
+				5EB0D84E1DB84C9200BCCDD3 /* Raleway-Black.ttf */,
+				5E16B3CB1DD3C05700C2F7A0 /* Raleway-ExtraBold.ttf */,
+				5E16B3CD1DD3C06900C2F7A0 /* Raleway-ExtraLight.ttf */,
+				5E16B3D11DD3C08C00C2F7A0 /* Raleway-Light.ttf */,
+				5E16B3D31DD3C09A00C2F7A0 /* Raleway-Medium.ttf */,
+				5E16B3D71DD3C0B500C2F7A0 /* Raleway-SemiBold.ttf */,
+				5E16B3CF1DD3C07700C2F7A0 /* Raleway-Heavy.ttf */,
+				5E16B3D91DD3C0C400C2F7A0 /* Raleway-Thin.ttf */,
+				5E16B3D51DD3C0A800C2F7A0 /* Raleway-Regular.ttf */,
+				5E16B3C91DD3C04300C2F7A0 /* Raleway-Bold.ttf */,
+				DA6D6D001BD5766800DFF8DC /* TasksViewController.swift */,
+				5EFB0ECA1DA190EF00007C1C /* RealmTasks-Bridging-Header.h */,
+				5EB0D84C1DB8393600BCCDD3 /* like@2x.png */,
+			);
+			name = RealmTasks;
+			path = VoteWithFriends;
+			sourceTree = "<group>";
+		};
+		DA646C7B1BCD7587002965D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA646C7E1BCD7615002965D7 /* Task.swift */,
+				DA646C801BCD877E002965D7 /* TaskList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA0BDB161BCC42EA00318A58 /* VoteWithFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0BDB291BCC42EA00318A58 /* Build configuration list for PBXNativeTarget "VoteWithFriends" */;
+			buildPhases = (
+				B7C8DA369404C36EAEF477AD /* 📦 Check Pods Manifest.lock */,
+				E73BA6AD79BA6E9E4C238046 /* [CP] Check Pods Manifest.lock */,
+				DA0BDB131BCC42EA00318A58 /* Sources */,
+				DA0BDB141BCC42EA00318A58 /* Frameworks */,
+				DA0BDB151BCC42EA00318A58 /* Resources */,
+				B96503110F2833664C5DA6B6 /* [CP] Embed Pods Frameworks */,
+				29987BC16A28004BEB62BB7C /* [CP] Copy Pods Resources */,
+				2BF3D9CCAECAD5A26195484A /* 📦 Embed Pods Frameworks */,
+				92A455C06117887F60891618 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoteWithFriends;
+			productName = RealmTasks;
+			productReference = DA0BDB171BCC42EA00318A58 /* VoteWithFriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA0BDB0F1BCC42EA00318A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Hossam Ghareeb";
+				TargetAttributes = {
+					DA0BDB161BCC42EA00318A58 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = SJF286FW76;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DA0BDB121BCC42EA00318A58 /* Build configuration list for PBXProject "VoteWithFriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA0BDB0E1BCC42EA00318A58;
+			productRefGroup = DA0BDB181BCC42EA00318A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA0BDB161BCC42EA00318A58 /* VoteWithFriends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA0BDB151BCC42EA00318A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFB0E9A1DA07E9500007C1C /* like@2x.png in Resources */,
+				5E5817A31DA6BB64003C759F /* HRC_Walkthrough_p2.png in Resources */,
+				5E5E656D1DB55CC3007E6C86 /* win.jpg in Resources */,
+				5E16B3D21DD3C08C00C2F7A0 /* Raleway-Light.ttf in Resources */,
+				5EFB0E991DA07E9500007C1C /* message@2x.png in Resources */,
+				5E16B3EF1DD5379500C2F7A0 /* ShakePhone.png in Resources */,
+				5E16B3DA1DD3C0C400C2F7A0 /* Raleway-Thin.ttf in Resources */,
+				5E16B3EB1DD5379500C2F7A0 /* Feedback.png in Resources */,
+				5E16B3E81DD5379500C2F7A0 /* Donate.png in Resources */,
+				5E16B3F21DD538B500C2F7A0 /* Volunteering-48.png in Resources */,
+				5E5817A21DA6BB63003C759F /* HRC_Walkthrough_p1.png in Resources */,
+				5E16B3ED1DD5379500C2F7A0 /* RouteSign.png in Resources */,
+				5EF177891DA99BE400A88A4B /* VWFicon.jpg in Resources */,
+				5E16B3EA1DD5379500C2F7A0 /* Facebook.png in Resources */,
+				5E16B3CC1DD3C05700C2F7A0 /* Raleway-ExtraBold.ttf in Resources */,
+				5E5E656F1DB55D06007E6C86 /* early.jpg in Resources */,
+				5E16B3D81DD3C0B500C2F7A0 /* Raleway-SemiBold.ttf in Resources */,
+				5E16B3D01DD3C07700C2F7A0 /* Raleway-Heavy.ttf in Resources */,
+				DA0BDB221BCC42EA00318A58 /* Assets.xcassets in Resources */,
+				5EB0D8531DBAA86300BCCDD3 /* Default-568h@2x.png in Resources */,
+				DA0BDB201BCC42EA00318A58 /* Main.storyboard in Resources */,
+				5E16B3F41DD5390E00C2F7A0 /* SMS-48.png in Resources */,
+				5E16B3EE1DD5379500C2F7A0 /* Search.png in Resources */,
+				5E16B3F01DD5379500C2F7A0 /* Twitter.png in Resources */,
+				5EF1778A1DA99BE400A88A4B /* vwflaunch.jpg in Resources */,
+				5E16B3CE1DD3C06900C2F7A0 /* Raleway-ExtraLight.ttf in Resources */,
+				5EB0D8511DB9B2CF00BCCDD3 /* Launch Screen.storyboard in Resources */,
+				5EFB0E971DA07E9500007C1C /* facebook@2x.png in Resources */,
+				5E16B3CA1DD3C04300C2F7A0 /* Raleway-Bold.ttf in Resources */,
+				5E5817A41DA6BB64003C759F /* HRC_Walkthrough_p3.png in Resources */,
+				5E16B3EC1DD5379500C2F7A0 /* IdVerified.png in Resources */,
+				5E16B3E91DD5379500C2F7A0 /* Elections.png in Resources */,
+				5E16B3D41DD3C09A00C2F7A0 /* Raleway-Medium.ttf in Resources */,
+				5E16B3D61DD3C0A800C2F7A0 /* Raleway-Regular.ttf in Resources */,
+				5EFB0E981DA07E9500007C1C /* twitter@2x.png in Resources */,
+				5EB0D84F1DB84C9200BCCDD3 /* Raleway-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29987BC16A28004BEB62BB7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoteWithFriends/Pods-VoteWithFriends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF3D9CCAECAD5A26195484A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoteWithFriends/Pods-VoteWithFriends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92A455C06117887F60891618 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoteWithFriends/Pods-VoteWithFriends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C8DA369404C36EAEF477AD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B96503110F2833664C5DA6B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoteWithFriends/Pods-VoteWithFriends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E73BA6AD79BA6E9E4C238046 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA0BDB131BCC42EA00318A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E34AFDF1DB6E48C0075B042 /* AppDelegate.swift in Sources */,
+				DA646C811BCD877E002965D7 /* TaskList.swift in Sources */,
+				5E7741581DA8202B00713D0A /* WebViewController.swift in Sources */,
+				DA646C831BCD98A6002965D7 /* TaskListsViewController.swift in Sources */,
+				5E16B3DE1DD3CA6300C2F7A0 /* CustomHeaderCell.swift in Sources */,
+				DA646C7F1BCD7615002965D7 /* Task.swift in Sources */,
+				DA6D6D011BD5766800DFF8DC /* TasksViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA0BDB1E1BCC42EA00318A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0BDB1F1BCC42EA00318A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA0BDB271BCC42EA00318A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Harish Kumar (EUQY7F7UU8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harish Kumar (EUQY7F7UU8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PROVISIONING_PROFILE = "ba8d0ffb-492a-4a5d-8e18-99e5af5c98df";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA0BDB281BCC42EA00318A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Harish Kumar (EUQY7F7UU8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Harish Kumar (EUQY7F7UU8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PROVISIONING_PROFILE = "ba8d0ffb-492a-4a5d-8e18-99e5af5c98df";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA0BDB2A1BCC42EA00318A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3D78BBD2380D3BD2C0B860 /* Pods-VoteWithFriends.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VoteWithFriends/VoteWithFriends.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Harish Kumar (EUQY7F7UU8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SJF286FW76;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/Documents/FacebookSDK/**",
+				);
+				INFOPLIST_FILE = VoteWithFriends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calculator.app;
+				PRODUCT_NAME = VoteWithFriends;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoteWithFriends/RealmTasks-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA0BDB2B1BCC42EA00318A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBB06F1F8370E2161AF4947 /* Pods-VoteWithFriends.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VoteWithFriends/VoteWithFriends.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Harish Kumar (EUQY7F7UU8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SJF286FW76;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"~/Documents/FacebookSDK/**",
+				);
+				INFOPLIST_FILE = VoteWithFriends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calculator.app;
+				PRODUCT_NAME = VoteWithFriends;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoteWithFriends/RealmTasks-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA0BDB121BCC42EA00318A58 /* Build configuration list for PBXProject "VoteWithFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0BDB271BCC42EA00318A58 /* Debug */,
+				DA0BDB281BCC42EA00318A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0BDB291BCC42EA00318A58 /* Build configuration list for PBXNativeTarget "VoteWithFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0BDB2A1BCC42EA00318A58 /* Debug */,
+				DA0BDB2B1BCC42EA00318A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA0BDB0F1BCC42EA00318A58 /* Project object */;
+}
