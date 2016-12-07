@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RSh-4w-lZ1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3jo-Tr-xsP">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -416,20 +416,37 @@
             </objects>
             <point key="canvasLocation" x="3612" y="-1204"/>
         </scene>
-        <!--View Controller-->
+        <!--HOME-->
         <scene sceneID="bSN-q5-uiA">
             <objects>
-                <viewController id="onD-Qh-bZJ" sceneMemberID="viewController">
+                <viewController id="onD-Qh-bZJ" customClass="HomeVC" customModule="VoteWithFriends" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Job-5z-av6"/>
                         <viewControllerLayoutGuide type="bottom" id="vVJ-PZ-dLM"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5k2-aR-MTY">
+                    <view key="view" contentMode="scaleToFill" id="5k2-aR-MTY" customClass="ViewController">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Check if logged in, if so cont., If not login page." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8I-nM-G3t">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8I-nM-G3t">
                                 <frame key="frameInset" minY="93" width="375" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHH-Le-YU7">
+                                <frame key="frameInset" minX="147" minY="467" width="85" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.031372549019607843" green="0.25882352941176473" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="logoutTapped:" destination="onD-Qh-bZJ" eventType="touchUpInside" id="PIs-Tj-BWv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6se-7q-Prz">
+                                <frame key="frameInset" minX="16" minY="263" width="343" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -438,15 +455,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="HOME" id="0rB-la-9cX"/>
+                    <connections>
+                        <segue destination="L20-e8-hax" kind="presentation" identifier="goto_login" id="cEd-jn-jAZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fw-aj-48K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4514.3999999999996" y="-1198.6506746626687"/>
+            <point key="canvasLocation" x="2344.8000000000002" y="-2088.3058470764618"/>
         </scene>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="HQb-S3-Aow">
             <objects>
-                <viewController id="L20-e8-hax" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" id="L20-e8-hax" customClass="LoginVC" customModule="VoteWithFriends" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jxh-l8-gpZ"/>
                         <viewControllerLayoutGuide type="bottom" id="sVj-Ig-ubS"/>
@@ -498,6 +519,9 @@
                                 <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="signinTapped:" destination="L20-e8-hax" eventType="touchUpInside" id="JKn-6T-jzY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=".: or :." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UkB-8p-drd">
                                 <frame key="frameInset" minX="165" minY="375" width="44" height="21"/>
@@ -513,19 +537,26 @@
                                 <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <segue destination="cac-rB-et3" kind="presentation" id="gFi-S6-Fom"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.039215686274509803" green="0.18823529411764706" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="txtPassword" destination="QjA-rX-rDm" id="CHT-O3-b18"/>
+                        <outlet property="txtUsername" destination="iOs-yP-h2c" id="VOM-5W-FYQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sfK-z1-aeG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5276" y="-1195.0524737631185"/>
+            <point key="canvasLocation" x="3159" y="-2088"/>
         </scene>
-        <!--View Controller-->
+        <!--SignupVC-->
         <scene sceneID="z23-ba-y2n">
             <objects>
-                <viewController id="cac-rB-et3" sceneMemberID="viewController">
+                <viewController id="cac-rB-et3" customClass="SignupVC" customModule="VoteWithFriends" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="huV-Mu-sna"/>
                         <viewControllerLayoutGuide type="bottom" id="pVc-Mo-s0v"/>
@@ -555,13 +586,23 @@
                                 <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="hV1-nb-IWj">
+                                <frame key="frameInset" minX="36" minY="343" width="286" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e99-yP-f56">
-                                <frame key="frameInset" minX="139" minY="334" width="80" height="30"/>
+                                <frame key="frameInset" minX="139" minY="392" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="signupTapped:" destination="cac-rB-et3" eventType="touchUpInside" id="Qke-P3-xPd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Register to use Vote With Friends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5v-br-ywI">
                                 <frame key="frameInset" minX="8" minY="113" width="343" height="21"/>
@@ -577,18 +618,39 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Confirm Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXg-k0-bqs">
+                                <frame key="frameInset" minX="103" minY="314" width="152" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bne-4c-cvU">
+                                <frame key="frameInset" minX="48" minY="454" width="262" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Already have an Account?  Login here."/>
+                                <connections>
+                                    <action selector="gotoLogin:" destination="cac-rB-et3" eventType="touchUpInside" id="yKv-Zk-b3O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.039215686274509803" green="0.18823529411764706" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="txtConfirmPassword" destination="hV1-nb-IWj" id="0AJ-Au-NPY"/>
+                        <outlet property="txtPassword" destination="jGt-Ey-3og" id="k9J-CF-KU3"/>
+                        <outlet property="txtUsername" destination="Vie-um-INE" id="I42-Zo-HgE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Btg-M6-OJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6052" y="-1189.6551724137933"/>
+            <point key="canvasLocation" x="4024.8000000000002" y="-2088.3058470764618"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PcW-N4-rKi">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="RSh-4w-lZ1" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Main" automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="RSh-4w-lZ1" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Ur5-p8-9aH">
@@ -607,6 +669,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ERD-Rm-ebF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1717" y="-422"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3ko-y7-mUh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3jo-Tr-xsP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="mIC-kE-QZf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="onD-Qh-bZJ" kind="relationship" relationship="rootViewController" id="jfB-8u-bpf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iyr-ht-Eyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1588" y="-2088"/>
         </scene>
     </scenes>
     <resources>

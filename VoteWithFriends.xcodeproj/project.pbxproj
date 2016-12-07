@@ -35,6 +35,9 @@
 		5E5E656D1DB55CC3007E6C86 /* win.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E656C1DB55CC3007E6C86 /* win.jpg */; };
 		5E5E656F1DB55D06007E6C86 /* early.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E656E1DB55D06007E6C86 /* early.jpg */; };
 		5E7741581DA8202B00713D0A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7741571DA8202A00713D0A /* WebViewController.swift */; };
+		5E8C9C981DF4D31E00F8D31C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C9C971DF4D31E00F8D31C /* HomeVC.swift */; };
+		5E8C9C9A1DF4D32A00F8D31C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C9C991DF4D32A00F8D31C /* LoginVC.swift */; };
+		5E8C9C9C1DF4D33200F8D31C /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C9C9B1DF4D33200F8D31C /* SignupVC.swift */; };
 		5EB0D84F1DB84C9200BCCDD3 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0D84E1DB84C9200BCCDD3 /* Raleway-Black.ttf */; };
 		5EB0D8511DB9B2CF00BCCDD3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0D8501DB9B2CF00BCCDD3 /* Launch Screen.storyboard */; };
 		5EB0D8531DBAA86300BCCDD3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0D8521DBAA86300BCCDD3 /* Default-568h@2x.png */; };
@@ -87,6 +90,9 @@
 		5E5E656C1DB55CC3007E6C86 /* win.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = win.jpg; sourceTree = "<group>"; };
 		5E5E656E1DB55D06007E6C86 /* early.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = early.jpg; sourceTree = "<group>"; };
 		5E7741571DA8202A00713D0A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		5E8C9C971DF4D31E00F8D31C /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		5E8C9C991DF4D32A00F8D31C /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5E8C9C9B1DF4D33200F8D31C /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		5EB0D84C1DB8393600BCCDD3 /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
 		5EB0D84E1DB84C9200BCCDD3 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
 		5EB0D8501DB9B2CF00BCCDD3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -215,7 +221,10 @@
 				5E7741571DA8202A00713D0A /* WebViewController.swift */,
 				5E34AFDE1DB6E48C0075B042 /* AppDelegate.swift */,
 				DA0BDB1E1BCC42EA00318A58 /* Main.storyboard */,
+				5E8C9C971DF4D31E00F8D31C /* HomeVC.swift */,
+				5E8C9C991DF4D32A00F8D31C /* LoginVC.swift */,
 				5E16B3DD1DD3CA6300C2F7A0 /* CustomHeaderCell.swift */,
+				5E8C9C9B1DF4D33200F8D31C /* SignupVC.swift */,
 				5EB0D8501DB9B2CF00BCCDD3 /* Launch Screen.storyboard */,
 				5EB0D8521DBAA86300BCCDD3 /* Default-568h@2x.png */,
 				DA0BDB211BCC42EA00318A58 /* Assets.xcassets */,
@@ -458,9 +467,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E34AFDF1DB6E48C0075B042 /* AppDelegate.swift in Sources */,
+				5E8C9C981DF4D31E00F8D31C /* HomeVC.swift in Sources */,
 				DA646C811BCD877E002965D7 /* TaskList.swift in Sources */,
 				5E7741581DA8202B00713D0A /* WebViewController.swift in Sources */,
 				DA646C831BCD98A6002965D7 /* TaskListsViewController.swift in Sources */,
+				5E8C9C9A1DF4D32A00F8D31C /* LoginVC.swift in Sources */,
+				5E8C9C9C1DF4D33200F8D31C /* SignupVC.swift in Sources */,
 				5E16B3DE1DD3CA6300C2F7A0 /* CustomHeaderCell.swift in Sources */,
 				DA646C7F1BCD7615002965D7 /* Task.swift in Sources */,
 				DA6D6D011BD5766800DFF8DC /* TasksViewController.swift in Sources */,

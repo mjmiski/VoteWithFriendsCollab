@@ -57,6 +57,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navBackgroundImage:UIImage! = UIImage(named: "backgroundNB.png")
         UINavigationBar.appearance().setBackgroundImage(navBackgroundImage, forBarMetrics: .Default)
         
+        
+        
         return true
     }
     

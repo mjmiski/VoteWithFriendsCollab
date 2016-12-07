@@ -28,8 +28,11 @@ class TaskListsViewController: UIViewController, UITableViewDelegate, UITableVie
     var notificationToken: NotificationToken!
     var realm: Realm!
     
+    
+    
     //All Actions here Disconnected
     @IBOutlet weak var taskListsTableView: UITableView!
+    @IBOutlet var usernameLabel : UILabel!
     @IBOutlet weak var navigationTitle: UINavigationItem!
     @IBOutlet weak var webView: UIWebView!
     @IBAction func backAction(sender: AnyObject) {
@@ -56,7 +59,9 @@ class TaskListsViewController: UIViewController, UITableViewDelegate, UITableVie
         if lists.isEmpty == true{
             showWalkthrough()
             }
-        }
+        
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -123,6 +128,7 @@ class TaskListsViewController: UIViewController, UITableViewDelegate, UITableVie
 
     override func viewDidAppear(animated: Bool) {
         
+                
         //Updates the view immediately
         self.readTasksAndUpdateUI()
     }
